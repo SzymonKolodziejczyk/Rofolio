@@ -1,0 +1,47 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900' fill='none'>
+  <defs>
+    <linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#0c1728'/>
+      <stop offset='55%' stop-color='#102540'/>
+      <stop offset='100%' stop-color='#16132c'/>
+    </linearGradient>
+    <radialGradient id='glowA' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='translate(1170 180) rotate(90) scale(260 420)'>
+      <stop stop-color='#7EB7FF' stop-opacity='.35'/>
+      <stop offset='1' stop-color='#7EB7FF' stop-opacity='0'/>
+    </radialGradient>
+    <radialGradient id='glowB' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='translate(1280 640) rotate(90) scale(220 320)'>
+      <stop stop-color='#F0C36C' stop-opacity='.25'/>
+      <stop offset='1' stop-color='#F0C36C' stop-opacity='0'/>
+    </radialGradient>
+    <linearGradient id='frame' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#A8D2FF'/>
+      <stop offset='100%' stop-color='#B98CFF'/>
+    </linearGradient>
+  </defs>
+  <rect width='1600' height='900' fill='url(#bg)'/>
+  <rect width='1600' height='900' fill='url(#glowA)'/>
+  <rect width='1600' height='900' fill='url(#glowB)'/>
+  <g opacity='.17' stroke='#8BB6E7'>
+    <path d='M0 160H1600M0 320H1600M0 480H1600M0 640H1600M0 800H1600'/>
+    <path d='M160 0V900M320 0V900M480 0V900M640 0V900M800 0V900M960 0V900M1120 0V900M1280 0V900M1440 0V900'/>
+  </g>
+  <g opacity='.75'>
+    <circle cx='250' cy='230' r='3' fill='#89C2FF'/><circle cx='340' cy='280' r='3' fill='#89C2FF'/><circle cx='450' cy='350' r='2' fill='#89C2FF'/><circle cx='1350' cy='260' r='2.5' fill='#D2A2FF'/><circle cx='1280' cy='340' r='3' fill='#F0C36C'/><circle cx='1240' cy='600' r='2.5' fill='#89C2FF'/>
+  </g>
+  <g>
+    <rect x='272' y='158' width='1056' height='596' rx='26' fill='#0A1424' stroke='url(#frame)' stroke-opacity='.6' stroke-width='2'/>
+    <rect x='310' y='196' width='980' height='520' rx='18' fill='#0D1A2E' stroke='#294664'/>
+    <path d='M371 596c52-96 142-145 252-145 93 0 170 41 236 118 66-91 147-136 247-136 71 0 132 22 183 60' stroke='#78B7FF' stroke-width='18' stroke-linecap='round'/>
+    <path d='M383 610c50-88 140-133 240-133 80 0 149 31 211 95 60-74 141-111 242-111 62 0 118 16 168 44' stroke='#B891FF' stroke-opacity='.55' stroke-width='8' stroke-linecap='round'/>
+    <circle cx='781' cy='456' r='122' stroke='#F0C36C' stroke-opacity='.45' stroke-width='3' stroke-dasharray='10 12'/>
+    <circle cx='781' cy='456' r='14' fill='#A8D2FF'/>
+    <path d='M1006 298l91 46-91 46v-92Z' fill='#C28EFF' fill-opacity='.88'/>
+  </g>
+  <g fill='#DDEFFF'>
+    <text x='350' y='292' font-family='Arial, sans-serif' font-size='58' font-weight='700'>Camera System</text>
+    <text x='350' y='352' font-family='Arial, sans-serif' font-size='28' opacity='.78'>Drop in your local footage to replace this poster</text>
+  </g>
+  <g fill='#A2BAD4' font-family='monospace' font-size='21'>
+    <text x='350' y='668'>/public/videos/camera-system-showcase.mp4</text>
+  </g>
+</svg>
